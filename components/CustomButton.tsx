@@ -1,9 +1,9 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import { CustomeButtonProps } from '@/types'
+import { CustomButtonProps } from '@/types'
 
-const CustomButton = ({title,containerStyles,handleClick, btnType}:CustomeButtonProps) => {
+const CustomButton = ({title,containerStyles,handleClick, btnType}:CustomButtonProps) => {
   return (
     <button disabled={false}
     type={btnType ||'button'}
