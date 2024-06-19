@@ -147,11 +147,11 @@
 /* END: Car Details styles */
 
 /* START: Custom Filter styles */
-.custom-filter__btn {
+.custom-filter-btn {
   @apply relative w-full min-w-[127px] flex justify-between items-center cursor-default rounded-lg bg-white py-2 px-3 text-left shadow-md sm:text-sm border;
 }
 
-.custom-filter__options {
+.custom-filter-options {
   @apply absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm;
 }
 /* END: Custom Filter styles */
@@ -161,7 +161,7 @@
   @apply flex flex-col text-black-100  mt-5 border-t border-gray-100;
 }
 
-.footer__links-container {
+.footer-links-container {
   @apply flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10;
 }
 
@@ -177,7 +177,7 @@
   @apply flex flex-col gap-6 text-base min-w-[170px];
 }
 
-.footer__copyrights {
+.footer-copyrights {
   @apply flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10;
 }
 
