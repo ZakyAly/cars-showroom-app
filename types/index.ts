@@ -1,3 +1,4 @@
+import { Icon } from "next/dist/lib/metadata/types/metadata-types";
 import { MouseEventHandler } from "react";
 
 export interface CustomButtonProps{
@@ -7,6 +8,7 @@ export interface CustomButtonProps{
     btnType?:'button' | "submit";
     textStyles?: string;
     isDisabled?: boolean;
+    rightIcon?: Icon
 }
 
 export interface SearchManufacturerProps{
@@ -27,4 +29,12 @@ export interface CarProps {
     model:string;
     transmission:string;
     year:number
+}
+
+export interface FilterProps {
+    manufacturer:string,
+    year:number,
+    fuel: string,
+    limit: number,
+    model: string,
 }
