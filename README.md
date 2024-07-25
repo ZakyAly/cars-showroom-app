@@ -1,6 +1,6 @@
 # Cars Showroom App
 
-A a [Next.js](https://nextjs.org/) project to showcase cars available in the showroom. [Users](https://cars-showroom-app.vercel.app/) can browse different cars, and view detailed information.
+A [Next.js](https://nextjs.org/) project to showcase cars available in the showroom. [Users](https://cars-showroom-app.vercel.app/) can browse different cars, and view detailed information.
 
 ## Table of Contents
 
