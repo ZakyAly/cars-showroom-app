@@ -1,38 +1,97 @@
-## CarShowRoom App - Under Construction
+# Cars Showroom App
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+A a [Next.js](https://nextjs.org/) project to showcase cars available in the showroom. [Users](https://cars-showroom-app.vercel.app/) can browse different cars, and view detailed information.
 
-## Getting Started
+## Table of Contents
 
-First, run the development server:
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Features](#features)
+4. [Screenshots](#screenshots)
+5. [Technologies Used](#technologies-used)
+6. [Contributing](#contributing)
+7. [Contact](#contact)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To set up the project locally, follow these steps:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the repository:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   git clone https://github.com/ZakyAly/cars-showroom-app.git
+   ```
 
-## Learn More
+2. **Navigate to the project directory:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   cd cars-showroom-app
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Install the dependencies:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+4. **Run the application:**
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The application should now be running on `http://localhost:3000`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Usage
+
+After setting up the project, you can use the application by:
+
+1. Opening `http://localhost:3000` in your web browser.
+2. Browsing through the cars listed on the homepage.
+3. Using the filters to narrow the displayed cars.
+4. Clicking on a car to view more details.
+
+## Features
+
+- Browse cars available in the showroom
+- View detailed information about each car
+- Search cars by make, model, and year
+
+## Screenshots
+
+### Home Page
+
+![Home Page](/public/home-page.png)
+
+### Car Details Page
+
+![Car Details Page](/public/car-details.png)
+
+## Technologies Used
+
+- **Frontend:**
+
+  - React
+  - Typescript
+  - Tailwind CSS
+  - @headlessUI
+  - Vercel for deployment
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
+
+Please make sure to update tests as appropriate.
+
+## Contact
+
+Zaky Aly - [zaky.aly88@gmail.com](mailto:zaky.aly88@gmail.com)
+
+Project Link: [https://github.com/ZakyAly/cars-showroom-app](https://github.com/ZakyAly/cars-showroom-app)
+
+Project Live: [https://cars-showroom-app.vercel.app/](https://cars-showroom-app.vercel.app/)
