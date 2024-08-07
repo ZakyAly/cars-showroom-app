@@ -68,13 +68,12 @@ After setting up the project, you can use the application by:
 
 ## Technologies Used
 
-- **Frontend:**
-
-  - React
-  - Typescript
-  - Tailwind CSS
-  - @headlessUI
-  - Vercel for deployment
+- React
+- Typescript
+- Tailwind CSS
+- @headlessUI
+- Vercel for deployment
+- Cars API by Ninjas
 
 ## Contributing
 
